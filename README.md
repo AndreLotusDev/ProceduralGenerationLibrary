@@ -1,7 +1,42 @@
 # ProceduralGenerationLibrary
 
-<h1>Some examples</h1>
-<hr/>
+This project, Procedural Generation Toolkit, is a Python-based library designed to facilitate the creation of procedurally generated content. It leverages various Python libraries such as Noise, Pillow, NumPy, SciPy, and OpenSimplex to generate diverse and complex patterns, landscapes, and textures. This toolkit is ideal for game developers, artists, and anyone interested in exploring the creative potential of procedural generation.
+
+## Installation
+
+To install the Procedural Generation Toolkit, follow these steps:
+
+```bash
+git clone https://github.com/yourusername/procedural-generation-toolkit.git
+cd procedural-generation-toolkit
+pip install -r requirements.txt
+```
+
+## Usage
+
+Here's a basic example of how to use the toolkit to generate a simple noise pattern:
+
+```python
+from procedural_gen import SimplexNoiseGenerator
+import matplotlib.pyplot as plt
+
+generator = SimplexNoiseGenerator()
+pattern = generator.generate_noise(100, 100)
+
+plt.imshow(pattern, cmap='gray')
+plt.show()
+```
+
+For more detailed examples, please refer to the `examples` directory.
+
+## Features
+- **Versatile Noise Generation**: Create diverse noise patterns including Perlin and Simplex noise.
+- **Dynamic Terrain Creation**: Utilize algorithms for fractal terrain and landscape generation.
+- **Advanced Texturing**: Generate procedural textures for a variety of applications.
+- **3D Model Generation**: Craft complex 3D models procedurally for games and simulations.
+- **Customizable Parameters**: Fine-tune your creations with a range of adjustable parameters.
+
+<h1>Types of procedural generation algorithms</h1>
 
 <ul>
   <li>Perlin Noise - Perlin noise is a type of noise function that generates random but smooth patterns, often used for generating natural-looking terrain in games like Minecraft and No Man's Sky.</li>
@@ -25,3 +60,13 @@
   <li>Crowd Simulation - Crowd simulation algorithms are used to simulate the behavior of large crowds of people or animals, often used for generating realistic crowds in games and simulations.</li>
   <li>Story Generation - Story generation algorithms are used to create dynamic and branching narratives for games and interactive experiences, often using natural language processing and machine learning techniques.</li>
 </ul>
+
+## Contributing
+
+Contributions to the Procedural Generation Toolkit are welcome. To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a pull request.
