@@ -43,6 +43,7 @@ For more detailed examples, please refer to the `examples` directory.
   <li>Cellular Automata - Cellular automata is a method of generating complex patterns by applying simple rules to cells on a grid. It is often used for generating landscapes, caves, and other natural features in games.</li>
   ![image](https://github.com/AndreLotusDev/ProceduralGenerationLibrary/assets/54090940/a96367be-1ff8-42bd-b4af-e3601a5997d6)
   <li>L-Systems - L-Systems are a type of fractal generation algorithm that uses recursive rules to produce complex geometric shapes, often used for generating plants and other organic structures in games.</li>
+  ![image](https://github.com/AndreLotusDev/ProceduralGenerationLibrary/assets/54090940/0e631770-284f-47be-a566-bb370374a9b5)
   <li>Voronoi Diagrams - Voronoi diagrams are a method of partitioning space into regions based on proximity to certain points, often used for generating random shapes and structures in games.</li>
   <li>Procedural Texturing - Procedural texturing algorithms generate textures by applying mathematical functions and patterns to a surface. They are often used for creating realistic textures in games and other graphics applications.</li>
   <li>Procedural Modeling - Procedural modeling is a method of generating 3D models by defining a set of rules and parameters. It is often used for generating terrain, buildings, and other structures in games and simulations.</li>
